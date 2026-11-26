@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saved Recipes | BakeNest</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">♧ BakeNest</a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="recipes.html">Recipes</a>
+                <a href="add-recipe.html">Add Recipe</a>
+                <a href="my-recipes.html">My Recipes</a>
+                <a href="saved-recipes.html" class="active">Saved Recipes</a>
+                <a href="about.html">About</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container page">
+        <a href="recipes.html" class="back">← Back to Recipes</a>
+        <h2>Saved Recipes</h2>
+        <p class="subtitle">Your favourite recipes, all in one place.</p>
+        <p id="savedCount" class="subtitle" aria-live="polite"></p>
+        <section class="recipe-grid" aria-label="Saved recipe cards"></section>
+        <div id="savedEmpty" class="saved-empty" hidden>
+            <div class="saved-heart">♡</div>
+            <h3>No saved recipes yet</h3>
+            <p>Find something delicious and tap ♡ Save to keep it here.</p>
+            <a href="recipes.html" class="btn">Browse Recipes</a>
+        </div>
+    </main>
+    <footer>© 2026 BakeNest · Baking made simple</footer>
+    <script src="saved-recipes.js"></script>
+</body>
+
+</html>

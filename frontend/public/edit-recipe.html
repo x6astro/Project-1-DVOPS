@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Recipe | BakeNest</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="container navbar">
+      <a href="index.html" class="logo">♧ BakeNest</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="add-recipe.html">Add Recipe</a>
+        <a href="my-recipes.html">My Recipes</a>
+        <a href="saved-recipes.html">Saved Recipes</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page">
+    <h2>Edit Recipe</h2>
+    <p class="subtitle">Update your baking recipe</p>
+
+    <form class="recipe-form" id="recipeForm" novalidate>
+      <input type="hidden" id="recipeId">
+
+      <div class="form-grid">
+        <div class="field">
+          <label for="title">Recipe Title *</label>
+          <input id="title" type="text" placeholder="e.g. Chocolate Brownies" required minlength="3">
+        </div>
+        <div class="field">
+          <label for="time">Prep Time (mins) *</label>
+          <input id="time" type="number" placeholder="30" min="1" max="500" required>
+        </div>
+        <div class="field">
+          <label for="category">Category *</label>
+          <select id="category">
+            <option value="">Select category</option>
+            <option>Cakes</option>
+            <option>Cookies</option>
+            <option>Bread</option>
+            <option>Pastries</option>
+            <option>Others</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="difficulty">Difficulty *</label>
+          <select id="difficulty">
+            <option value="">Select difficulty</option>
+            <option>Easy</option>
+            <option>Medium</option>
+            <option>Hard</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="description">Description *</label>
+        <textarea id="description" rows="3" placeholder="Briefly describe your recipe..." required></textarea>
+      </div>
+
+      <div class="field">
+        <label for="imageLink">Image Link</label>
+        <textarea id="imageLink" type="url" placeholder="https://example.com/image.jpg"></textarea>
+      </div>
+
+      <div class="form-grid">
+        <div class="field">
+          <label for="ingredients">Ingredients * (one per line)</label>
+          <textarea id="ingredients" rows="5" placeholder="100g flour&#10;2 eggs" required></textarea>
+        </div>
+        <div class="field">
+          <label for="steps">Steps * (one per line)</label>
+          <textarea id="steps" rows="5" placeholder="Preheat oven to 180°C&#10;Mix ingredients" required></textarea>
+        </div>
+      </div>
+
+      <div id="errorMessages" class="error-message" role="alert"></div>
+      <div class="form-buttons">
+        <a href="recipes.html" class="btn btn-light">Cancel</a>
+        <button class="btn" type="submit">Save Changes</button>
+      </div>
+    </form>
+  </main>
+
+  <footer>© 2026 BakeNest · Baking made simple</footer>
+  <script src="js/aniq.js"></script>
+</body>
+
+</html>

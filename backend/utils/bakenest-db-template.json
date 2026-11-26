@@ -1,0 +1,81 @@
+[
+  {
+    "id": 1,
+    "imageLink": "https://i.pinimg.com/736x/13/a0/2d/13a02d22db27134dbe4b9efcba6f2893.jpg",
+    "title": "Chocolate Chip",
+    "category": "Cakes",
+    "prepTime": "25 mins",
+    "difficulty": "Easy",
+    "description": "Classic chewy chocolate chip cookies with crisp edges.",
+    "ingredients": [
+      "225g unsalted butter",
+      "200g brown sugar",
+      "300g plain flour",
+      "150g chocolate chips"
+    ],
+    "steps": [
+      "Preheat the oven to 180°C.",
+      "Cream the butter and sugar until light.",
+      "Mix in the flour and chocolate chips.",
+      "Bake for 10 to 12 minutes."
+    ]
+  },
+  {
+    "id": 2,
+    "imageLink": "https://i.pinimg.com/1200x/39/4c/c0/394cc0d39c6d8090815c90b3e7e1c6c9.jpg",
+    "title": "Banana Bread",
+    "category": "Bread",
+    "prepTime": "1 hr",
+    "difficulty": "Easy",
+    "description": "A moist banana bread made with ripe bananas.",
+    "ingredients": [
+      "3 ripe bananas",
+      "250g plain flour",
+      "150g sugar",
+      "100g melted butter",
+      "2 eggs"
+    ],
+    "steps": [
+      "Preheat the oven to 180°C.",
+      "Mash the bananas and mix with the butter and eggs.",
+      "Fold in the flour and sugar.",
+      "Bake for 50 minutes."
+    ]
+  },
+  {
+    "id": 3,
+    "imageLink": "https://i.pinimg.com/736x/aa/5b/17/aa5b17c611e48b2e3e6c72a9ba2ad5b9.jpg",
+    "title": "Red Velvet Cupcakes",
+    "category": "Cakes",
+    "prepTime": "50 mins",
+    "difficulty": "Medium",
+    "description": "Soft red velvet cupcakes with a rich cocoa flavour.",
+    "ingredients": [
+      "250g plain flour",
+      "200g sugar",
+      "30g cocoa powder",
+      "2 eggs",
+      "240ml buttermilk"
+    ],
+    "steps": [
+      "Preheat the oven to 180°C.",
+      "Mix the dry ingredients in one bowl.",
+      "Add the eggs and buttermilk and mix until smooth.",
+      "Bake in cupcake cases for 18 to 20 minutes."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "brown butter cake",
+    "category": "Bread",
+    "prepTime": "30 mins",
+    "difficulty": "Easy",
+    "description": "hdio'LS",
+    "ingredients": [
+      "100G FLOUR"
+    ],
+    "steps": [
+      "PREHEAT OVEN"
+    ]
+  }
+]

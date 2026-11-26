@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Recipes | BakeNest</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="container navbar">
+      <a href="index.html" class="logo">♧ BakeNest</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="recipes.html" class="active">Recipes</a>
+        <a href="add-recipe.html">Add Recipe</a>
+        <a href="my-recipes.html">My Recipes</a>
+        <a href="saved-recipes.html">Saved Recipes</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page">
+    <h2>Explore Recipes</h2>
+    <p class="subtitle">Find your next favourite bake.</p>
+
+    <!-- Search and category filters -->
+    <div class="search-row">
+      <input type="search" placeholder="Search recipes (e.g. cookies, cake...)">
+      <button class="btn" type="button">Search</button>
+    </div>
+    <div class="category-row">
+      <button class="selected" type="button">All</button>
+      <button type="button">Cakes</button>
+      <button type="button">Cookies</button>
+      <button type="button">Bread</button>
+      <button type="button">Pastries</button>
+      <button type="button">Others</button>
+    </div>
+
+    <section class="recipe-grid">
+      <!-- Recipe cards will be loaded dynamically using recipes.js -->
+    </section>
+
+  </main>
+
+  <footer>© 2026 BakeNest · Baking made simple</footer>
+  <script src="recipes.js"></script>
+</body>
+
+</html>
